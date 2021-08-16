@@ -69,3 +69,38 @@
 .job{
     color: #757575 
 }
+
+.link-item:hover,
+.link-item:focus{
+     color: red;
+}
+
+.link:hover,
+.link:focus{
+    color: red;  
+}
+
+.site-nav-mail:hover,
+.site-nav-mail:focus{
+    color: red; 
+}
+
+.site-nav-tel:hover,
+.site-nav-tel:focus{
+    color: red; 
+}
+
+.address-item:hover,
+.address-item:focus{
+    color: red; 
+}
+
+.mail:hover,
+.mail:focus{
+    color: red; 
+}
+
+.tel:hover,
+.tel:focus{
+    color: red;  
+}
