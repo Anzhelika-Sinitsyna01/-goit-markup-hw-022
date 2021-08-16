@@ -104,3 +104,18 @@
 .tel:focus{
     color: red;  
 }
+
+.link-item2:hover,
+.link-item2:focus{
+    color: red;  
+}
+
+.link2:hover,
+.link2:focus{
+    color: red; 
+}
+
+.site-nav-mail2:hover,
+.site-nav-mail2:focus{
+    color: red;
+}
