@@ -1,125 +1,155 @@
+
+/*основной цвет текста #757575 */
+/* втоичный цвет текста #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+/* фон героя #2F303A */
+/* фон футера #2F303A */
+
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:black;
+    --accent-color: #2196F3;
+    --part-color:#9b9d9e;
+    --logo-color:#FFFFFF;
+    --background-color:#2F303A;
+    --background-maincolor:#E5E5E5;
+    --focus-color:red;
+}
+
+.body{
+    background-color:var(--background-maincolor) ;
+    color:var(--primary-text-color); 
+}
+
+.list{
+  list-style: none;
+}
+
 .logo{
-    color:black;
+    color:var(--title-text-color);
 }
 
 .logo2{
-    color: #FFFFFF;
+    color: var(--logo-color);
 }
 
 .part{
-    color: #2196F3;
+    color:var(--accent-color);
 }
 
 .link-item{
-    color: #2196F3;
+    color:var(--accent-color);
 }
 
 .link-item2{
-    color:black  
+    color:var(--title-text-color);  
 }
 
 .link{
-    color:black 
+    color:var(--title-text-color); 
 }
 
 .link2{
-    color: #2196F3;
+    color:var(--accent-color);
 }
 
 .site-nav-mail{
-    color: #2196F3;
+    color:var(--accent-color);
 }
 
 .site-nav-mail2{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 
 .site-nav-tel{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 .section1{
-    background-color: #2F303A;
+    background-color:var(--background-color);
 }
 
 .h1{
-    color:#FFFFFF;
+    color:var(--logo-color);
 }
 
 .btn{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color:var(--accent-color);
+    color:var(--logo-color);
 }
 
 .footer{
-    background: #2F303A;
+    background:var(--background-color);
 }
 
 .address-item{
-    color: #FFFFFF;
+    color:var(--logo-color);
 }
 
 .mail{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 
 .tel{
-    color: #757575;
+    color:var(--primary-text-color);
 }
 
 .best{
-    color: #757575;   
+    color:var(--primary-text-color);   
 }
 
 .job{
-    color: #757575 
+    color:var(--primary-text-color); 
 }
 
 .link-item:hover,
 .link-item:focus{
-     color: red;
+     color:var(--focus-color);
 }
 
 .link:hover,
 .link:focus{
-    color: red;  
+    color: var(--focus-color); 
 }
 
 .site-nav-mail:hover,
 .site-nav-mail:focus{
-    color: red; 
+    color:var(--focus-color); 
 }
 
 .site-nav-tel:hover,
 .site-nav-tel:focus{
-    color: red; 
+    color:var(--focus-color); 
 }
 
 .address-item:hover,
 .address-item:focus{
-    color: red; 
+    color:var(--focus-color); 
 }
 
 .mail:hover,
 .mail:focus{
-    color: red; 
+    color:var(--focus-color); 
 }
 
 .tel:hover,
 .tel:focus{
-    color: red;  
+    color: var(--focus-color); 
 }
 
 .link-item2:hover,
 .link-item2:focus{
-    color: red;  
+    color:var(--focus-color);  
 }
 
 .link2:hover,
 .link2:focus{
-    color: red; 
+    color:var(--focus-color); 
 }
 
 .site-nav-mail2:hover,
 .site-nav-mail2:focus{
-    color: red;
+    color:var(--focus-color);
 }
