@@ -22,6 +22,7 @@
 .body{
     background-color:var(--background-maincolor) ;
     color:var(--primary-text-color); 
+    font-family: Roboto, sans-serif;
 }
 
 .list{
@@ -30,10 +31,42 @@
 
 .logo{
     color:var(--title-text-color);
+    font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+
+font-family: Oleo Script;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .logo2{
     color: var(--logo-color);
+    font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+
+font-family: Oleo Script;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .part{
@@ -42,30 +75,86 @@
 
 .link-item{
     color:var(--accent-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 
 .link-item2{
-    color:var(--title-text-color);  
+    color:var(--title-text-color); 
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
 }
 
 .link{
-    color:var(--title-text-color); 
+    color:var(--title-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+ 
 }
 
 .link2{
     color:var(--accent-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 
 .site-nav-mail{
     color:var(--accent-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 
 .site-nav-mail2{
     color:var(--primary-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 
 .site-nav-tel{
     color:var(--primary-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 .section1{
     background-color:var(--background-color);
@@ -73,11 +162,46 @@
 
 .h1{
     color:var(--logo-color);
+    font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;
+
+}
+.h2{
+    font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+
+.h3{
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
 }
 
 .btn{
     background-color:var(--accent-color);
     color:var(--logo-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
 }
 
 .footer{
@@ -86,22 +210,62 @@
 
 .address-item{
     color:var(--logo-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .mail{
     color:var(--primary-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .tel{
     color:var(--primary-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .best{
-    color:var(--primary-text-color);   
+    color:var(--primary-text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+      
 }
 
 .job{
     color:var(--primary-text-color); 
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+
 }
 
 .link-item:hover,
